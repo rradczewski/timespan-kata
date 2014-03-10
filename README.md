@@ -24,7 +24,7 @@ The goal is to implement a utility function that 'pretty-prints' timespans. For 
 
 5. Add a parameter ```bool brevity``` to your function so that, if set to true, only the three largest units are shown. E.g. ```prettyPrint(90012, brevity: true) => "1 day, 1 hour"```
 6. Add a parameter ```bool skipZeroes``` to your function so that, if set to true, zeroes are skipped. E.g. ```prettyPrint(172860, skipZeroes: true) => "2 days, 1 minute"```
-7. Allow both parameters to be used in conjunction, e.g. "prettyPrint(172862, brevity: true, skipZeroes: true) => "2 days, 1 minute"```
+7. Allow both parameters to be used in conjunction, e.g. ```prettyPrint(172862, brevity: true, skipZeroes: true) => "2 days, 1 minute"```
 
 ### Part 3 - Lossy algorithm
 
