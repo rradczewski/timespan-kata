@@ -18,7 +18,12 @@ The goal is to implement a utility function that 'pretty-prints' timespans. For 
 1. Implement a function that, given a number of seconds, prints the seconds suffixed with " seconds". E.g. ```prettyPrint(30) => "30 seconds"```
 2. Extend your function to support minutes e.g. ```prettyPrint(140) => "2 minutes, 20 seconds"```
 3. Extend your function to use singular for every unit, e.g. ```prettyPrint(3601) => "1 hour, 1 second"```
-4. Implement hours, days, months and years (we assume ```30 days = 1 month```)
+4. Implement hours, days, months and years (we assume ```30 days = 1 month```, ```1 year = 12 months```)
+
+Notes:
+
+- The most intuitive approach is to show all units starting with the largest needed to display the time
+- Don't encourage refactoring too much - Part 1 can take a long time, you might even want to timebox it
 
 ### Part 2 - For brevity!
 
