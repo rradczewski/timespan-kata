@@ -16,15 +16,15 @@ The goal is to implement a utility function that 'pretty-prints' timespans. For 
 ### Part 1 - Simple pretty-printing
 
 1. Implement a function that, given a number of seconds, prints the seconds suffixed with " seconds". E.g. ```prettyPrint(30) => "30 seconds"```
-2. Extend your function to support minutes e.g. ```prettyPrint(140) => "2 minutes, 20 seconds"```
+2. Extend your function to support minutes e.g. ```prettyPrint(140) => "2 minutes, 20 seconds"```. Dont show minutes, unless the amount of seconds is large enough (e.g. ```prettyPrint(40) => "40 seconds"```) => Dont break the API (yet). 
 3. Extend your function to use singular for every unit, e.g. ```prettyPrint(3601) => "1 hour, 1 second"```
 4. Implement hours, days, months and years (we assume ```30 days = 1 month```)
 
 ### Part 2 - For brevity!
 
 5. Add a parameter ```bool brevity``` to your function so that, if set to true, only the three largest units are shown. E.g. ```prettyPrint(90012, brevity: true) => "1 day, 1 hour"```
-6. Add a parameter ```bool skipZeroes``` to your function so that, if set to true, zeroes are skipped. E.g. ```prettyPrint(172860, skipZeroes: true) => "2 days, 1 minute"```
-7. Allow both parameters to be used in conjunction, e.g. ```prettyPrint(172862, brevity: true, skipZeroes: true) => "2 days, 1 minute"```
+6. Add a parameter ```bool showZeroes``` to your function so that, if set to true, units smaller than the greatest shown unit are shown, no matter if their value is zero or not. E.g. ```prettyPrint(172860, showZeroes: true) => "2 days, 1 minute, 0 seconds"```
+7. Allow both parameters to be used in conjunction, e.g. ```prettyPrint(172862, brevity: true, showZeroes: true) => "2 days, 0 hours, 1 minute"```
 
 ### Part 3 - Lossy algorithm
 
