@@ -17,18 +17,18 @@ The goal is to implement a utility function that 'pretty-prints' timespans. For 
 
 ### Part 1 - Simple pretty-printing
 
-1. [Task 1.1](tasks/1.1md)
-2. [Task 1.2](tasks/1.2md)
-3. [Task 1.3](tasks/1.3md)
+1. [Task 1.1](tasks/1.1.md)
+2. [Task 1.2](tasks/1.2.md)
+3. [Task 1.3](tasks/1.3.md)
 
 ### Part 2 - For brevity!
 
-1. [Task 2.1](tasks/2.1md)
-2. [Task 2.2](tasks/2.2md)
-3. [Task 2.3](tasks/2.3md)
+1. [Task 2.1](tasks/2.1.md)
+2. [Task 2.2](tasks/2.2.md)
+3. [Task 2.3](tasks/2.3.md)
 
 ### Part 3 - Lossy algorithm
 
-1. [Task 3.1](tasks/3.1md)
-2. [Task 3.2](tasks/3.2md)
-3. [Task 3.3](tasks/3.3md)
+1. [Task 3.1](tasks/3.1.md)
+2. [Task 3.2](tasks/3.2.md)
+3. [Task 3.3](tasks/3.3.md)
